@@ -1,14 +1,21 @@
-torch
-torchvision
+# --- Base et Déploiement ---
 streamlit
-neuralprophet
-yfinance
-pandas
-numpy
-matplotlib
-pillow
-grad-cam
-opencv-python-headless
-neuralprophet==0.9.0
-pytorch-lightning==2.1.0
+
+# --- Manipulation de Données (Versions stables) ---
 pandas<2.2.0
+numpy<2.0.0
+scikit-learn
+
+# --- Deep Learning (Cœur du projet) ---
+torch>=2.0.0
+torchvision
+
+# --- NeuralProphet (Spécifique pour ton ANN/Amazon) ---
+#
+pytorch-lightning==2.1.0
+neuralprophet==0.9.0
+
+# --- Visualisation ---
+matplotlib
+seaborn
+plotly
