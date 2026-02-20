@@ -1,5 +1,5 @@
 import streamlit as st
-
+import streamlit as st
 # ... (garder tout ton début de script jusqu'à la création du dataframe df) ...
 
 st.title("🚀 Prédiction Amazon - Deep Learning")
@@ -36,3 +36,4 @@ ax.plot(df['ds'].tail(60), df['y'].tail(60), label="Réel", color="black")
 ax.plot(forecast['ds'].tail(7), forecast['yhat1'].tail(7), 'ro--', label="Prédiction")
 ax.legend()
 st.pyplot(fig) # <-- Indispensable sur Streamlit !
+
