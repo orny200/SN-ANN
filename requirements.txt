@@ -1,0 +1,11 @@
+torch
+torchvision
+streamlit
+neuralprophet
+yfinance
+pandas
+numpy
+matplotlib
+pillow
+grad-cam
+opencv-python-headless
