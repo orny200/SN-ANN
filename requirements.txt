@@ -9,3 +9,6 @@ matplotlib
 pillow
 grad-cam
 opencv-python-headless
+neuralprophet==0.9.0
+pytorch-lightning==2.1.0
+pandas<2.2.0
